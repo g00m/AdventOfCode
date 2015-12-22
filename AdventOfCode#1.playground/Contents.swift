@@ -18,11 +18,11 @@ for char in str.characters {
     
     if floor < 0 && firstStepInBasement == nil {
         firstStepInBasement = stepsTaken
-        print(stepsTaken)
+        print(String(format: "First time santa to basement: %d", arguments: [stepsTaken]))
     }
 }
 
-print(floor)
+print(String(format: "Santa has to deliver to: %d ", arguments: [floor]))
 
 
 
